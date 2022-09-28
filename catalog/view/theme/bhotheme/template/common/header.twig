@@ -1,0 +1,21 @@
+<head>
+
+<script src="//cdn.jsdelivr.net/npm/jquery.marquee@1.6.0/jquery.marquee.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+{% if marquee.status %}
+
+    <div class="best-marquee-wrap desktop">
+        <div class="best-marquee">
+            {{ marquee.text }}
+        </div>
+    </div>
+
+{% endif %}
+
+</body>
+
+

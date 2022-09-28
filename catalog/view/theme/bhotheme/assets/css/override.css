@@ -1,0 +1,5 @@
+.best-marquee {
+    width: 300px; /* the plugin works for responsive layouts so width is not necessary */
+    overflow: hidden;
+    position: relative;
+}
